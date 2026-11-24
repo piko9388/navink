@@ -1,0 +1,11 @@
+:root{--bg:#F5F6F8;--card:#FFFFFF;--text:#1C1E21;--sub:#5F6670;--line:#E3E6EA;--accent:#2B64AD}
+@media (prefers-color-scheme:dark){:root{--bg:#121418;--card:#1C1F25;--text:#E8EAED;--sub:#A3AAB4;--line:#2B2F36;--accent:#82AAF0}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-size:17px;line-height:1.7}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.brand{font-weight:800;font-size:20px}.brand b{color:var(--accent)}
+section{background:var(--card);border-radius:12px;padding:24px 20px;margin:16px 0}
+:lang(ko){word-break:keep-all;overflow-wrap:break-word}
+h1{font-size:24px;line-height:1.3;margin:0 0 8px}h2{font-size:18px;margin:24px 0 8px}
+ul{padding-left:22px;margin:0 0 12px}li{margin-bottom:4px}.meta{color:var(--sub);font-size:15px}
+a{color:var(--accent)}hr{border:0;border-top:1px solid var(--line);margin:24px 0}
